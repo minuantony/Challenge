@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8f033b02aa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div
+      class="container border border-success border-5 m-5 p-3"
+      style="background: rgb(220, 239, 221)"
+    >
+      <div class="col">
+        <form>
+          <input type="text" placeholder="Type a City" />
+          <input type="submit" value="Submit" />
+          <!--<button type="button" class="btn btn-success">Current</button>-->
+          <input type="button" value="Current" class="btn btn-success" />
+        </form>
+        <!--<span class="search-button border border-3 border-secondary pb-1 ">
+           <button type="button" value="Submit" class="btn btn-Light" style="color: rgb(90,117,142)"><em>Search</em></button>
+        </span>-->
+        <h2>
+          <mark>San Francisco</mark>
+        </h2>
+        <h5>
+          <mark>Saturday 7am</mark><br /><mark class="description">Cloudy</mark>
+        </h5>
+        <h1>
+          <span class="temperature">☁️51</span>°<a href="#" id="celsius-link"
+            >C</a
+          >
+        </h1>
+        <ul class="fivedays">
+          <li class="days">
+            <mark>Sunday</mark><br />☀️<br />
+            68° /51°F
+          </li>
+          <li class="days">
+            <mark>Monday</mark><br />🌤️<br />
+            66° /53°F
+          </li>
+          <li class="days">
+            <mark>Tuesday</mark><br />⛅<br />
+            63° /51°F
+          </li>
+          <li class="days">
+            <mark>Wednesday</mark><br />⛅<br />
+            61° /52°F
+          </li>
+          <li class="days">
+            <mark>Thursday</mark><br />🌤️<br />
+            65° /53°F
+          </li>
+        </ul>
+      </div>
+      <p>
+        <mark> Precipitation:10%</mark> <br />
+        <mark> Wind:20mph</mark><br />
+        <mark>Humidity:76%</mark>
+      </p>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

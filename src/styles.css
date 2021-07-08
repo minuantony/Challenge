@@ -1,0 +1,90 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  border-color: rgb(78, 174, 83);
+  width: 45%;
+}
+h1 {
+  text-align: center;
+  color: #58716e;
+  font-size: 75px;
+  font-weight: bold;
+  margin: 20px;
+  margin-left: 0;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 55px;
+  font-weight: bold;
+}
+h2 mark {
+  color: rgb(220, 124, 70);
+  background-color: rgb(220, 227, 205);
+  padding: 0;
+}
+h5 {
+  line-height: 1.5;
+}
+h5 mark {
+  color: rgb(72, 172, 244);
+  background-color: rgb(204, 232, 220);
+  font-size: 27px;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-top: 32px;
+}
+p mark {
+  color: rgb(83, 94, 85);
+  background-color: rgba(206, 226, 209);
+  padding: 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+.fivedays {
+  color: rgb(104, 173, 193);
+  font-weight: bold;
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center;
+  margin-top: -330px;
+  margin-right: 10px;
+  padding: 0;
+  border: 1px solid rgb(243, 196, 109);
+  border-width: 3px;
+  box-sizing: border-box;
+  background: #e0e6c7;
+  margin-right: -7px;
+  width: 25%;
+  float: right;
+  position: relative;
+}
+.fivedays mark {
+  background: #d4dcc4;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0;
+}
+.fivedays .days {
+  margin-top: 5px;
+  font-size: 18px;
+}
+mark {
+  color: rgb(111, 121, 163);
+  background-color: rgba(212, 220, 196, 0.5);
+}
+/*.btn {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}*/
